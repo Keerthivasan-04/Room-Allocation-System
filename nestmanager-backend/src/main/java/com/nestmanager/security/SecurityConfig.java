@@ -66,6 +66,7 @@ public class SecurityConfig {
                 "http://localhost:5501",
                 "http://127.0.0.1:3000",
                 "http://localhost:3000"
+                "https://nestmanager.netlify.app"
         ));
 
         config.setAllowedMethods(List.of(
