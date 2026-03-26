@@ -6,7 +6,7 @@
 /*  Config                                                              */
 /* ------------------------------------------------------------------ */
 
-const API_BASE_URL = 'http://localhost:8080';
+const API_BASE_URL = 'https://room-allocation-system.up.railway.app';
 const LOGIN_ENDPOINT = `${API_BASE_URL}/api/auth/login`;
 const DASHBOARD_URL = '../dashboard/dashboard.html';
 

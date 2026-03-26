@@ -17,7 +17,7 @@
 
 'use strict';
 
-const API_BASE = 'http://localhost:8080';
+const API_BASE = 'https://room-allocation-system.up.railway.app';
 const LOGIN_PAGE = '../login/login.html';
 
 function getToken() { return sessionStorage.getItem('nestmanager_token') || localStorage.getItem('nestmanager_token') || null; }

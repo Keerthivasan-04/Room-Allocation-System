@@ -19,7 +19,7 @@
 /*  Config                                                              */
 /* ------------------------------------------------------------------ */
 
-const API_BASE = 'http://localhost:8080';
+const API_BASE = 'https://room-allocation-system.up.railway.app';
 const ENDPOINTS = {
     summary: `${API_BASE}/api/dashboard/summary`,
     activity: `${API_BASE}/api/dashboard/activity`,
